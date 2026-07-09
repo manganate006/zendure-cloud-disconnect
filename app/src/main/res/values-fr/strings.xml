@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zendure Disconnector</string>
+
+    <!-- Permissions / prérequis -->
+    <string name="perm_title">Accès Bluetooth requis</string>
+    <string name="perm_rationale">Cette application recherche les appareils Zendure SolarFlow à proximité et s\'y connecte en Bluetooth LE. Les permissions Bluetooth sont nécessaires — rien n\'est envoyé ailleurs.</string>
+    <string name="perm_grant">Accorder les permissions</string>
+    <string name="perm_denied_hint">Permissions refusées. Vous pouvez les accorder depuis les paramètres système de l\'application.</string>
+    <string name="bt_disabled">Le Bluetooth est désactivé</string>
+    <string name="bt_enable">Activer le Bluetooth</string>
+    <string name="location_off_warning">La localisation est désactivée. Sur cette version d\'Android, le scan Bluetooth ne renvoie aucun résultat tant qu\'elle n\'est pas activée.</string>
+
+    <!-- Écran de scan -->
+    <string name="scan_title">Appareils Zendure</string>
+    <string name="scanning">Recherche d\'appareils Zendure…</string>
+    <string name="scan_empty">Aucun appareil Zendure détecté pour l\'instant</string>
+    <string name="scan_hint">Appareil invisible ? Fermez l\'application Zendure officielle sur tous les téléphones : l\'appareil n\'émet en Bluetooth que lorsque rien n\'y est connecté.</string>
+    <string name="unknown_model">Appareil Zendure inconnu</string>
+    <string name="rssi_value">%1$d dBm</string>
+    <string name="scan_error">Échec du scan Bluetooth : %1$s</string>
+
+    <!-- Écran de configuration -->
+    <string name="config_title">Configuration</string>
+    <string name="back">Retour</string>
+    <string name="product_key">Clé produit</string>
+    <string name="mode_local">Broker local</string>
+    <string name="mode_cloud">Restaurer le cloud</string>
+    <string name="field_ssid">Réseau Wi-Fi (SSID)</string>
+    <string name="ssid_hint">Réseaux 2,4 GHz uniquement</string>
+    <string name="field_password">Mot de passe Wi-Fi</string>
+    <string name="show_password">Afficher le mot de passe</string>
+    <string name="field_broker">Adresse du broker MQTT</string>
+    <string name="broker_hint">IP ou nom d\'hôte — le port 1883 est implicite</string>
+    <string name="field_timezone">Fuseau horaire</string>
+    <string name="timezone_hint">Format : GMT+02:00</string>
+    <string name="warning_anonymous">Votre broker MQTT doit accepter les connexions anonymes (allow_anonymous true) : l\'appareil n\'envoie aucun identifiant.</string>
+    <string name="cloud_info">L\'appareil sera reconnecté au cloud Zendure (mq.zen-iot.com) et réapparaîtra dans l\'application officielle.</string>
+    <string name="apply">Appliquer</string>
+
+    <!-- Écran de résultat -->
+    <string name="result_title">Provisionnement</string>
+    <string name="step_connecting">Connexion</string>
+    <string name="step_discovering">Découverte des services</string>
+    <string name="step_mtu">Négociation MTU</string>
+    <string name="step_notifications">Activation des notifications</string>
+    <string name="step_reading_info">Lecture des infos de l\'appareil</string>
+    <string name="step_sending_config">Envoi de la configuration</string>
+    <string name="step_applying">Application (mode station)</string>
+    <string name="step_awaiting_reboot">Redémarrage de l\'appareil</string>
+    <string name="reboot_note">L\'appareil redémarre (~30 s). La perte de la connexion Bluetooth est normale — elle signifie que la configuration a été acceptée.</string>
+    <string name="success_title">Terminé !</string>
+    <string name="success_local">L\'appareil va maintenant se connecter à votre broker MQTT local %1$s.</string>
+    <string name="success_cloud">L\'appareil va se reconnecter au cloud Zendure. Il devrait réapparaître dans l\'application officielle d\'ici quelques minutes.</string>
+    <string name="info_unavailable">Les infos de l\'appareil n\'ont pas pu être lues (identifiant inconnu), mais la configuration a bien été appliquée.</string>
+    <string name="error_at_step">Échec à l\'étape : %1$s</string>
+    <string name="retry">Réessayer</string>
+    <string name="finish">Terminer</string>
+    <string name="copy">Copier</string>
+    <string name="device_id">Identifiant de l\'appareil</string>
+    <string name="device_sn">Numéro de série</string>
+    <string name="topics_title">Topics MQTT</string>
+    <string name="topic_report">Télémétrie (report)</string>
+    <string name="topic_write">Commandes (write)</string>
+    <string name="verify_title">Vérifier depuis votre ordinateur</string>
+</resources>
