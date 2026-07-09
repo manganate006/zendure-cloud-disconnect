@@ -23,6 +23,14 @@ jobs:
       - name: Decode keystore
         run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > "$GITHUB_WORKSPACE/release.jks"
 
+      - name: Validate keystore
+        run: |
+          sha256sum "$GITHUB_WORKSPACE/release.jks"
+          keytool -list -keystore "$GITHUB_WORKSPACE/release.jks" -storepass "$KEYSTORE_PASSWORD" -alias "$KEY_ALIAS"
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+
       - name: Build signed release APK
         run: ./gradlew assembleRelease
         env:
