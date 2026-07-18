@@ -12,3 +12,4 @@ build/
 release.jks
 keystore-secrets.local.txt
 art/Gemini_*
+.kotlin/
