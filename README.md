@@ -1,10 +1,21 @@
-<p align="center"><img src="art/icon.png" width="160" alt="ZenDisconnect logo"/></p>
+<div align="center">
+
+<img src="art/icon.png" width="160" alt="ZenDisconnect logo"/>
 
 # ZenDisconnect
 
-Android app to disconnect **Zendure SolarFlow** devices from the Zendure cloud and point them to your **own local MQTT broker**, entirely over **Bluetooth LE** — no PC required. It can also restore the factory cloud connection at any time.
+**Disconnect Zendure SolarFlow devices from the cloud and point them to your own local MQTT broker — entirely over Bluetooth LE, no PC required.**
 
-This is the Android counterpart of the Windows tool [nograx/zendure-cloud-disconnector](https://github.com/nograx/zendure-cloud-disconnector) and the Python tool [reinhard-brandstaedter/solarflow-bt-manager](https://github.com/reinhard-brandstaedter/solarflow-bt-manager).
+[![Build](https://github.com/manganate006/zendure-cloud-disconnect/actions/workflows/build.yml/badge.svg)](https://github.com/manganate006/zendure-cloud-disconnect/actions/workflows/build.yml)
+[![Release](https://img.shields.io/github/v/release/manganate006/zendure-cloud-disconnect)](https://github.com/manganate006/zendure-cloud-disconnect/releases/latest)
+![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-brightgreen)
+[![License: MIT](https://img.shields.io/github/license/manganate006/zendure-cloud-disconnect)](LICENSE)
+
+**[⬇️ Download APK](https://github.com/manganate006/zendure-cloud-disconnect/releases/latest) · [Devices](#supported-devices) · [Usage](#usage) · [How it works](#how-it-works)**
+
+</div>
+
+ZenDisconnect is the Android counterpart of the Windows tool [nograx/zendure-cloud-disconnector](https://github.com/nograx/zendure-cloud-disconnector) and the Python tool [reinhard-brandstaedter/solarflow-bt-manager](https://github.com/reinhard-brandstaedter/solarflow-bt-manager). It can also restore the factory cloud connection at any time.
 
 ## Supported devices
 
