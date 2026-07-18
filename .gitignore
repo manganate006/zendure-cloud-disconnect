@@ -11,3 +11,4 @@ build/
 *.keystore
 release.jks
 keystore-secrets.local.txt
+art/Gemini_*

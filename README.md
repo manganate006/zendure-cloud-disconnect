@@ -1,4 +1,6 @@
-# Zendure Cloud Disconnector — Android
+<p align="center"><img src="art/icon.png" width="160" alt="ZenDisconnect logo"/></p>
+
+# ZenDisconnect
 
 Android app to disconnect **Zendure SolarFlow** devices from the Zendure cloud and point them to your **own local MQTT broker**, entirely over **Bluetooth LE** — no PC required. It can also restore the factory cloud connection at any time.
 

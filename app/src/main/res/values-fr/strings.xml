@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Zendure Disconnector</string>
+    <string name="app_name">ZenDisconnect</string>
 
     <!-- Permissions / prérequis -->
     <string name="perm_title">Accès Bluetooth requis</string>
